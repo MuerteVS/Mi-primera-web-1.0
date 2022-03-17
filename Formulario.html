@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Guillermo.L.E</title>
+        <link rel="icon" href="ImgVideoAudio/Troll.ico">
+        <meta charset="utf-8">
+        <meta name="keywords" content="Guillermo, Primera Web, Desarrolo Web">
+        <meta name="description" content="Mi primera pagina web">
+        <meta name="author" content="Guillermo Ezequiel Lopez">
+        <meta name="robots" content="index">
+      </head>
+      <body>
+          <header>
+            <nav>
+                <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="miscuentas.html">Mis redes sociales</a></li>
+                        <li><a href="informacionextra.html">Otra informacion</a></li>
+                        <li><a href="Articulo.html">Articulo</a></li>
+                        <li><a href="Cryptos.html">Mis Cryptos</a></li>
+                </ul>
+            </nav>
+          </header>
+          <h1>Formulario</h1>
+        <form action="/Formulario/" method="post">
+          <h2>Informacion personal</h2>
+          <fieldset>
+          <legend>Datos relevantes</legend>
+            <div>
+            <input type="text" placeholder="Nombre" name="name" autofocus>
+            <input placeholder="Apellido" name="surname">
+            <input type="password" placeholder="Contraseña" name="password">
+            </div>
+            <div>
+            <input type="date" name="date">
+            <input type="email" placeholder="Email" name="email" required="">
+            <input type="tel" placeholder="Telefono" name="tel">
+            </div>
+            </fieldset>
+
+            <div>
+            <h3>Genero</h3>
+            <label>
+                Masculino
+                <input type="radio" name="gender" value="masculino">
+            </label>
+            <label>
+                Femenino
+                <input type="radio" name="gender" value="femenino">
+            </label>
+            <label>
+                No especificar
+                <input type="radio" name="gender" value="desconocido">
+            </label>
+            </div>
+
+            <div>
+            <h4>Informacion extra</h4>
+            <label>
+                Meme preferido
+                <input type="file">
+            </label>
+            </div>
+            <div>
+            <h4>Mejor o mejores animes</h4>
+            <label>
+                <input type="checkbox" name="animes" value="DBZ" checked>
+                Dragon Ball Z
+            </label>
+            <label>
+                <input type="checkbox" name="animes" value="Naruto">
+                Naruto Shippuden
+            </label>
+            <label>
+                <input type="checkbox" name="animes" value="OP">
+                One Piece
+            </label>
+            <label>
+                <input type="checkbox" name="animes" value="Pokemon">
+                Pokemon
+            </label>
+            </div>
+            <div>
+            <h4>El mejor equipo</h4>
+            <select name="Equipos">
+                <optgroup label="El mejor"> 
+                <option value="boca">Boca</option>
+                </optgroup>
+                <optgroup label="Los peores">
+                <option value="river">River</option>
+                <option value="independiente">Independiente</option>
+                <option value="Sanlorenzo">San Lorenzo</option>
+                <option value="Quilmes">San Lorenzo</option>
+                <option value="Racing">San Lorenzo</option>
+                </optgroup>
+            </select>
+            </div>
+            <div>
+            <h4>Mascota preferida</h4>
+            <input type="text" list="mascotas">
+            <datalist id="mascotas">
+                <option value="Perro"></option>
+                <option value="Gato"></option>
+                <option value="Loro"></option>
+                <option value="Hamster"></option>
+                <option value="Conejo"></option>
+            </datalist>
+            </div>
+            <label>
+                Un simple boton
+                <input type="button" value="Boton JS">
+            </label>
+            <div>
+            <label>
+                Dejame saber que piensas:
+                <textarea rows="2" cols="20" placeholder="Comentarios" name="Comentarios"></textarea>
+            </label>
+            </div>
+            <div>
+            <label>
+                Completar Formulario
+                <button type="submit">Enviar</button>
+            </label>
+            </div>
+        </form>
+    
+</body>
+</html>
