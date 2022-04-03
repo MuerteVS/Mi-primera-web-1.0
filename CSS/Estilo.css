@@ -1,3 +1,6 @@
+* {
+    font-family: 'Indie Flower', cursive;
+}
 #titulo {
     font-size: 20px;
 }
@@ -7,13 +10,29 @@
     height:5vh;
     font-size: 2em;
     font-family: 'Rock 3D', cursive;
+    padding-bottom: 40px;
+    text-align: center;
+    border: 4px groove grey;
+    box-shadow: 2px 2px 15px 0 red;
+    text-shadow: 2px 2px 10px violet, 2px 2px 10px violet; 
 }
 #titulo:hover {
     color: gold;
 }
 [Parrafo=titulo] {
+    padding: 5px;
     color:black;
     font-size: 1em;
+}
+.titulo-secundario {
+    width: 100vw;
+    height: 5vh;
+    font-size: 2em;
+    padding: 10px 30px;
+    text-shadow: 2px 2px 4px gold;
+}
+[navegacion="lista"] {
+    padding: 10px 30px;
 }
 #sensual{
     color: green;
